@@ -1,0 +1,15 @@
+api_platform:
+    title: Plant Reminder API
+    version: 0.1
+    mapping:
+        paths: ['%kernel.project_dir%/src/Entity']
+    enable_entrypoint: false
+    enable_docs: false
+    swagger:
+        api_keys:
+            apiKey:
+                name: Authorization
+                type: header
+
+    formats:
+        jsonld: ['application/ld+json']
