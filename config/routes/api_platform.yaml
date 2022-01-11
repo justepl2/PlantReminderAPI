@@ -1,0 +1,11 @@
+api_doc:
+    path: /docs/plantReminderApiDoc
+    controller: api_platform.swagger.action.ui
+
+api_entrypoint: 
+    path: /
+
+api_platform:
+    resource: .
+    type: api_platform
+    prefix: /api
